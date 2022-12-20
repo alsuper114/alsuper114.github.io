@@ -140,7 +140,7 @@
   /**
    * Skills animation
    */
-  let skilsContent = select('.skills-content');
+  let skilsContent = select('.progress-bar');
   if (skilsContent) {
     new Waypoint({
       element: skilsContent,
