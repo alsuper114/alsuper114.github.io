@@ -223,7 +223,8 @@ h6 {
 .navbar li:hover > a:before,
 .navbar .active:before {
   visibility: visible;
-  width: 25px;
+  width: 100%;
+  font-weight: bold;
 }
 .navbar a:hover,
 .navbar .active,
@@ -340,14 +341,14 @@ section .container {
   color: #aaaaaa;
   font-family: "Poppins", sans-serif;
 }
-.section-title h2::after {
+/* .section-title h2::after {
   content: "";
   width: 120px;
   height: 1px;
   display: inline-block;
   background: #4ceb95;
   margin: 4px 10px;
-}
+} */
 .section-title p {
   margin: 0;
   margin: -15px 0 15px 0;
@@ -362,7 +363,9 @@ section .container {
 # About
 --------------------------------------------------------------*/
 .about-me .content h3 {
-  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
   font-size: 26px;
   color: #18d26e;
 }
